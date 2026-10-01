@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Documents/Downloads/gpmb-procurement-nextjs/app/page.tsx"],"sourcesContent":["import { cookies, headers } from \"next/headers\";\nimport { redirect } from \"next/navigation\";\n\nexport default async function HomePage() {\n  const cookieStore = await cookies();\n  const saved = cookieStore.get(\"gpmb_locale\")?.value;\n  if (saved === \"pt\" || saved === \"en\") redirect(`/${saved}`);\n\n  const acceptLanguage = (await headers()).get(\"accept-language\")?.toLowerCase() ?? \"\";\n  redirect(acceptLanguage.startsWith(\"en\") ? \"/en\" : \"/pt\");\n}\n"],"names":["HomePage","cookieStore","saved","get","value","acceptLanguage","toLowerCase","startsWith"],"mappings":";;;;AAAA;AACA;AAAA;;;AAEe,eAAeA;IAC5B,MAAMC,cAAc,MAAM,IAAA,0IAAO;IACjC,MAAMC,QAAQD,YAAYE,GAAG,CAAC,gBAAgBC;IAC9C,IAAIF,UAAU,QAAQA,UAAU,MAAM,IAAA,iMAAQ,EAAC,CAAC,CAAC,EAAEA,OAAO;IAE1D,MAAMG,iBAAiB,CAAC,MAAM,IAAA,0IAAO,GAAE,EAAEF,GAAG,CAAC,oBAAoBG,iBAAiB;IAClF,IAAA,iMAAQ,EAACD,eAAeE,UAAU,CAAC,QAAQ,QAAQ;AACrD"}}]
+}
