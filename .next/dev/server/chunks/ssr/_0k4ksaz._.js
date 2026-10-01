@@ -616,14 +616,14 @@ function Hero({ m }) {
                     columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative flex min-h-[390px] items-center justify-center md:min-h-[590px]",
+                    className: "relative hidden md:flex min-h-[390px] items-center justify-center md:min-h-[590px]",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute right-0 top-10 h-[80%] w-[72%] rounded-[2rem] bg-surface"
                         }, void 0, false, {
                             fileName: "[project]/components/gpmb/Site.tsx",
                             lineNumber: 78,
-                            columnNumber: 95
+                            columnNumber: 105
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "relative z-10 flex w-full justify-center",
@@ -632,19 +632,19 @@ function Hero({ m }) {
                             }, void 0, false, {
                                 fileName: "[project]/components/gpmb/Site.tsx",
                                 lineNumber: 78,
-                                columnNumber: 237
+                                columnNumber: 247
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/gpmb/Site.tsx",
                             lineNumber: 78,
-                            columnNumber: 179
+                            columnNumber: 189
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-4 right-4 h-1 w-28 gradient-wing md:right-10"
                         }, void 0, false, {
                             fileName: "[project]/components/gpmb/Site.tsx",
                             lineNumber: 78,
-                            columnNumber: 279
+                            columnNumber: 289
                         }, this)
                     ]
                 }, void 0, true, {

@@ -3380,6 +3380,10 @@
       position: absolute;
     }
 
+    .md\:relative {
+      position: relative;
+    }
+
     .md\:right-6 {
       right: calc(var(--spacing) * 6);
     }
