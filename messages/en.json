@@ -24,7 +24,7 @@
     "trust": "Strong relationships with suppliers and strategic partners",
     "visualAlt": "GPMB multicolour wing identity"
   },
-  "about": {
+   "about": {
     "eyebrow": "About us",
     "title": "The right partner for demanding requirements.",
     "body": "GPMB, Lda is a Mozambican company specialising in maintenance parts and materials for commercial, industrial and domestic use. We provide accessible solutions, professional service and strong relationships with strategic suppliers.",
@@ -46,8 +46,8 @@
     "downloadAria": "Download the GPMB company profile PDF",
     "downloadResellerLetter": "Download Reseller Letter",
     "downloadRAILOLetter": "Download RAILO Letter",
-    "downloadValesProducts": "Download Vales Products Letter",
-    },
+    "downloadValesProducts": "Download Vales Products Letter"
+  },
   "services": {
     "eyebrow": "Services and products",
     "title": "Supply solutions for operations that cannot stop.",

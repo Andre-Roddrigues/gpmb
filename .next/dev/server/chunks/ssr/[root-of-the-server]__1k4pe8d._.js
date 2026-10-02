@@ -191,7 +191,7 @@ module.exports = {
         "commitmentTitle": "Responsible commitment",
         "commitment": "We aim to exceed client expectations through quality and safety, preventing risks to people.",
         "downloadCompanyProfile": "Download Company Profile",
-        "downloadAria": "Download our documents in PDF format",
+        "downloadAria": "Download the GPMB company profile PDF",
         "downloadResellerLetter": "Download Reseller Letter",
         "downloadRAILOLetter": "Download RAILO Letter",
         "downloadValesProducts": "Download Vales Products Letter"
