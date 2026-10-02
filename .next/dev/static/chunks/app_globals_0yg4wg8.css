@@ -410,6 +410,10 @@
 @layer components;
 
 @layer utilities {
+  .pointer-events-auto {
+    pointer-events: auto;
+  }
+
   .pointer-events-none {
     pointer-events: none;
   }
@@ -500,6 +504,10 @@
 
   .top-\[60\%\] {
     top: 60%;
+  }
+
+  .top-\[67px\] {
+    top: 67px;
   }
 
   .top-full {
@@ -892,6 +900,10 @@
     height: 3px;
   }
 
+  .h-\[64px\] {
+    height: 64px;
+  }
+
   .h-\[76px\] {
     height: 76px;
   }
@@ -982,6 +994,10 @@
 
   .w-1 {
     width: var(--spacing);
+  }
+
+  .w-1\.5 {
+    width: calc(var(--spacing) * 1.5);
   }
 
   .w-2 {
@@ -1090,6 +1106,10 @@
 
   .max-w-\[25rem\] {
     max-width: 25rem;
+  }
+
+  .max-w-\[160px\] {
+    max-width: 160px;
   }
 
   .max-w-\[210px\] {
@@ -1672,6 +1692,16 @@
     }
   }
 
+  .bg-black\/40 {
+    background-color: #0006;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/40 {
+      background-color: color-mix(in oklab, var(--color-black) 40%, transparent);
+    }
+  }
+
   .bg-black\/80 {
     background-color: #000c;
   }
@@ -2024,6 +2054,10 @@
 
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
+  }
+
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
   }
 
   .py-4 {
@@ -3596,6 +3630,18 @@
       display: flex;
     }
 
+    .sm\:h-12 {
+      height: calc(var(--spacing) * 12);
+    }
+
+    .sm\:h-\[76px\] {
+      height: 76px;
+    }
+
+    .sm\:max-w-\[210px\] {
+      max-width: 210px;
+    }
+
     .sm\:max-w-sm {
       max-width: var(--container-sm);
     }
@@ -3640,6 +3686,10 @@
 
     .sm\:p-8 {
       padding: calc(var(--spacing) * 8);
+    }
+
+    .sm\:px-5 {
+      padding-inline: calc(var(--spacing) * 5);
     }
 
     .sm\:text-left {
