@@ -149,7 +149,7 @@ const isLocale = (value)=>locales.includes(value);
 module.exports = {
     "localeName": "English",
     "meta": {
-        "title": "GPMB, Lda — Industrial procurement and supply in Mozambique",
+        "title": "GPMB, Lda — Industrial procurement and supply",
         "description": "Reliable procurement and supply solutions for industrial, commercial and domestic materials in Mozambique."
     },
     "nav": {
@@ -189,9 +189,12 @@ module.exports = {
             "Integrity"
         ],
         "commitmentTitle": "Responsible commitment",
-        "commitment": "We aim to exceed client expectations through quality and safety, preventing risks to people, health and property while preserving the environment.",
-        "download": "Download Company Profile",
-        "downloadAria": "Download the GPMB company profile PDF"
+        "commitment": "We aim to exceed client expectations through quality and safety, preventing risks to people.",
+        "downloadCompanyProfile": "Download Company Profile",
+        "downloadAria": "Download our documents in PDF format",
+        "downloadResellerLetter": "Download Reseller Letter",
+        "downloadRAILOLetter": "Download RAILO Letter",
+        "downloadValesProducts": "Download Vales Products Letter"
     },
     "services": {
         "eyebrow": "Services and products",
@@ -201,54 +204,143 @@ module.exports = {
         "specialLabel": "Specialised supply",
         "showMore": "View specialised supply",
         "showLess": "Show less",
+        "modal": {
+            "close": "Close",
+            "features": "What we supply",
+            "quote": "Request a quote"
+        },
         "items": [
             {
                 "title": "Office supplies",
-                "description": "Consumables and equipment for productive workspaces."
+                "description": "Consumables and equipment for productive workspaces.",
+                "long": "We supply consumables and equipment for productive workspaces, from basic stationery to office furniture, with regular deliveries and managed stock.",
+                "features": [
+                    "Stationery and consumables",
+                    "Office furniture",
+                    "Printing equipment",
+                    "Managed stock and automatic replenishment"
+                ]
             },
             {
                 "title": "Electrical materials",
-                "description": "Components for industrial, commercial and domestic infrastructure."
+                "description": "Components for industrial, commercial and domestic infrastructure.",
+                "long": "Electrical components for industrial, commercial and domestic infrastructure. We work with certified brands (ABB, Siemens, Schneider) and provide technical support in selection.",
+                "features": [
+                    "Circuit breakers and switchboards",
+                    "Cables and accessories",
+                    "Transformers and power supplies",
+                    "Sensors and pneumatic equipment"
+                ]
             },
             {
                 "title": "Personal protective equipment",
-                "description": "Safety and protection solutions for different sectors."
+                "description": "Safety and protection solutions for different sectors.",
+                "long": "Safety and protection solutions for different sectors, with certified equipment and compliance with international standards.",
+                "features": [
+                    "Helmets, glasses and gloves",
+                    "Protective clothing",
+                    "Masks and respirators",
+                    "Safety footwear"
+                ]
             },
             {
                 "title": "Graphic materials",
-                "description": "Materials for visual communication and print production."
+                "description": "Materials for visual communication and print production.",
+                "long": "Materials for visual communication and print production for companies and industry, with pre-press and finishing support.",
+                "features": [
+                    "Paper and substrates",
+                    "Inks and consumables",
+                    "Banners and vinyls",
+                    "Finishing materials"
+                ]
             },
             {
                 "title": "Welding equipment",
-                "description": "Equipment for industrial welding processes."
+                "description": "Equipment for industrial welding processes.",
+                "long": "Equipment for industrial welding processes, with training and technical assistance included.",
+                "features": [
+                    "SMAW, TIG, MIG welders",
+                    "Multi-process and advanced",
+                    "Welding consumables",
+                    "Technical assistance"
+                ]
             },
             {
                 "title": "Lifting equipment",
-                "description": "High-performance solutions designed around safety."
+                "description": "High-performance solutions designed around safety.",
+                "long": "High-performance safety-oriented solutions for lifting operations in industry, ports and offshore.",
+                "features": [
+                    "Slings and cables",
+                    "Jacks and cylinders",
+                    "Lifting systems",
+                    "Inspection and certification"
+                ]
             },
             {
                 "title": "Valves and pumps",
-                "description": "Inspected equipment for industrial applications."
+                "description": "Inspected equipment for industrial applications.",
+                "long": "Inspected equipment for industrial applications, tested before delivery to minimise downtime.",
+                "features": [
+                    "Centrifugal and displacement pumps",
+                    "Control valves",
+                    "Pumping stations",
+                    "Oil/water separators"
+                ]
             },
             {
                 "title": "Stainless steel and aluminium",
-                "description": "Corrosion-resistant metals and profiles."
+                "description": "Corrosion-resistant metals and profiles.",
+                "long": "Corrosion-resistant metals and profiles, ISO and SABS certified, for demanding applications.",
+                "features": [
+                    "Stainless steel",
+                    "Duplex stainless",
+                    "Aluminium and profiles",
+                    "Sheets and tubes"
+                ]
             },
             {
                 "title": "HDPE sheet",
-                "description": "Lightweight, durable and chemical-resistant material."
+                "description": "Lightweight, durable and chemical-resistant material.",
+                "long": "Lightweight, durable and chemical-resistant material, ideal for wear guides, tanks and industrial applications.",
+                "features": [
+                    "HDPE sheets",
+                    "Wear guides",
+                    "Tanks and ducts",
+                    "Cutting and moulding"
+                ]
             },
             {
                 "title": "Conveyor belts",
-                "description": "Components and support for conveyor systems."
+                "description": "Components and support for conveyor systems.",
+                "long": "Components and support for conveyor systems, with quality assurance and after-sales support.",
+                "features": [
+                    "Conveyor belts",
+                    "Rollers and pulleys",
+                    "Technical rubber",
+                    "Maintenance services"
+                ]
             },
             {
                 "title": "Industrial IT equipment",
-                "description": "Computers and equipment for industrial environments."
+                "description": "Computers and equipment for industrial environments.",
+                "long": "Rugged computers and equipment for industrial environments, with custom configurations.",
+                "features": [
+                    "Industrial computers",
+                    "Industrial printers and plotters",
+                    "Keyboards and peripherals",
+                    "Switches and network cables"
+                ]
             },
             {
                 "title": "Hydraulic and mechanical materials",
-                "description": "Parts and tools for maintenance and operations."
+                "description": "Parts and tools for maintenance and operations.",
+                "long": "Parts and tools for maintenance and operations, with technical support in component identification.",
+                "features": [
+                    "Hydraulic parts",
+                    "Mechanical parts",
+                    "Maintenance tools",
+                    "Technical support"
+                ]
             }
         ]
     },
@@ -356,7 +448,7 @@ module.exports = {
 module.exports = {
     "localeName": "Português",
     "meta": {
-        "title": "GPMB, Lda — Procurement e fornecimento industrial em Moçambique",
+        "title": "GPMB, Lda — Procurement e fornecimento industrial",
         "description": "Soluções fiáveis de procurement e fornecimento de material industrial, comercial e doméstico em Moçambique."
     },
     "nav": {
@@ -396,9 +488,13 @@ module.exports = {
             "Integridade"
         ],
         "commitmentTitle": "Compromisso responsável",
-        "commitment": "Procuramos superar as expectativas dos clientes com qualidade e segurança, prevenindo riscos para as pessoas, a saúde e os bens, e preservando o meio ambiente.",
-        "download": "Descarregar Company Profile",
-        "downloadAria": "Descarregar o perfil institucional da GPMB em PDF"
+        "commitment": "Procuramos superar as expectativas dos clientes com qualidade e segurança, prevenindo riscos para as pessoas, a saúde e os bens.",
+        "downloadCompanyProfile": "Descarregar Company Profile",
+        "downloadAria": "Descarregar o perfil institucional da GPMB em PDF",
+        "downloadResellerLetter": "Descarregar Letter de Distribuidor",
+        "downloadRAILOLetter": "Descarregar Letter de Cooperação",
+        "downloadValesProducts": "Descarregar Letter de Cooperação",
+        "download": "Descarregar Company Profile"
     },
     "services": {
         "eyebrow": "Serviços e produtos",
@@ -408,54 +504,143 @@ module.exports = {
         "specialLabel": "Fornecimento especializado",
         "showMore": "Ver fornecimento especializado",
         "showLess": "Ver menos",
+        "modal": {
+            "close": "Fechar",
+            "features": "O que fornecemos",
+            "quote": "Pedir cotação"
+        },
         "items": [
             {
                 "title": "Material de escritório",
-                "description": "Consumíveis e equipamentos para espaços de trabalho funcionais."
+                "description": "Consumíveis e equipamentos para espaços de trabalho funcionais.",
+                "long": "Fornecemos consumíveis e equipamentos para espaços de trabalho funcionais, desde papelaria básica a mobiliário de escritório, com entregas regulares e stocks geridos.",
+                "features": [
+                    "Papelaria e consumíveis",
+                    "Mobiliário de escritório",
+                    "Equipamento de impressão",
+                    "Stocks geridos e reposição automática"
+                ]
             },
             {
                 "title": "Material eléctrico",
-                "description": "Componentes para infra-estruturas industriais, comerciais e domésticas."
+                "description": "Componentes para infra-estruturas industriais, comerciais e domésticas.",
+                "long": "Componentes eléctricos para infra-estruturas industriais, comerciais e domésticas. Trabalhamos com marcas certificadas (ABB, Siemens, Schneider) e fornecemos apoio técnico na selecção.",
+                "features": [
+                    "Disjuntores e quadros eléctricos",
+                    "Cabos e acessórios",
+                    "Transformadores e fontes",
+                    "Sensores e equipamento pneumático"
+                ]
             },
             {
                 "title": "Equipamento de protecção individual",
-                "description": "Soluções de segurança e protecção para diferentes sectores."
+                "description": "Soluções de segurança e protecção para diferentes sectores.",
+                "long": "Soluções de segurança e protecção para diferentes sectores, com equipamento certificado e conformidade com normas internacionais.",
+                "features": [
+                    "Capacetes, óculos e luvas",
+                    "Vestuário de protecção",
+                    "Máscaras e respiradores",
+                    "Calçado de segurança"
+                ]
             },
             {
                 "title": "Material gráfico",
-                "description": "Materiais de comunicação visual e produção gráfica."
+                "description": "Materiais de comunicação visual e produção gráfica.",
+                "long": "Materiais de comunicação visual e produção gráfica para empresas e indústria, com suporte em pré-impressão e acabamentos.",
+                "features": [
+                    "Papel e substratos",
+                    "Tintas e consumíveis",
+                    "Lonas e vinis",
+                    "Materiais de acabamento"
+                ]
             },
             {
                 "title": "Equipamento de soldadura",
-                "description": "Equipamentos para processos de soldadura industriais."
+                "description": "Equipamentos para processos de soldadura industriais.",
+                "long": "Equipamentos para processos de soldadura industriais, com formação e assistência técnica incluídas.",
+                "features": [
+                    "Soldadores SMAW, TIG, MIG",
+                    "Multi-processo e avançados",
+                    "Consumíveis de soldadura",
+                    "Assistência técnica"
+                ]
             },
             {
                 "title": "Equipamento de elevação",
-                "description": "Soluções de alto desempenho orientadas à segurança."
+                "description": "Soluções de alto desempenho orientadas à segurança.",
+                "long": "Soluções de alto desempenho orientadas à segurança, para operações de elevação em indústria, portos e offshore.",
+                "features": [
+                    "Cabos e lingas",
+                    "Macacos e cilindros",
+                    "Sistemas de elevação",
+                    "Inspecção e certificação"
+                ]
             },
             {
                 "title": "Válvulas e bombas",
-                "description": "Equipamentos inspeccionados para aplicações industriais."
+                "description": "Equipamentos inspeccionados para aplicações industriais.",
+                "long": "Equipamentos inspeccionados para aplicações industriais, com testes antes da entrega para minimizar tempos de paragem.",
+                "features": [
+                    "Bombas centrífugas e de deslocamento",
+                    "Válvulas de controlo",
+                    "Estações de bombagem",
+                    "Separadores óleo/água"
+                ]
             },
             {
                 "title": "Aço inoxidável e alumínio",
-                "description": "Metais e perfis resistentes à corrosão."
+                "description": "Metais e perfis resistentes à corrosão.",
+                "long": "Metais e perfis resistentes à corrosão, certificados ISO e SABS, para aplicações exigentes.",
+                "features": [
+                    "Aço inoxidável",
+                    "Duplex stainless",
+                    "Alumínio e perfis",
+                    "Chapas e tubos"
+                ]
             },
             {
                 "title": "Folha de HDPE",
-                "description": "Material leve, durável e resistente a químicos."
+                "description": "Material leve, durável e resistente a químicos.",
+                "long": "Material leve, durável e resistente a químicos, ideal para guias de desgaste, tanques e aplicações industriais.",
+                "features": [
+                    "Chapas de HDPE",
+                    "Guias de desgaste",
+                    "Tanques e ductos",
+                    "Corte e moldagem"
+                ]
             },
             {
                 "title": "Correias transportadoras",
-                "description": "Componentes e apoio para sistemas de transporte."
+                "description": "Componentes e apoio para sistemas de transporte.",
+                "long": "Componentes e apoio para sistemas de transporte, com garantia de qualidade e suporte pós-venda.",
+                "features": [
+                    "Correias transportadoras",
+                    "Roletes e tambores",
+                    "Borrachas técnicas",
+                    "Serviços de manutenção"
+                ]
             },
             {
                 "title": "Informática industrial",
-                "description": "Computadores e equipamentos para ambientes industriais."
+                "description": "Computadores e equipamentos para ambientes industriais.",
+                "long": "Computadores e equipamentos robustos para ambientes industriais, com configurações personalizadas.",
+                "features": [
+                    "Computadores industriais",
+                    "Impressoras e plotadores",
+                    "Teclados e periféricos",
+                    "Switches e cabos de rede"
+                ]
             },
             {
                 "title": "Material hidráulico e mecânico",
-                "description": "Peças e ferramentas para manutenção e operação."
+                "description": "Peças e ferramentas para manutenção e operação.",
+                "long": "Peças e ferramentas para manutenção e operação, com apoio técnico na identificação de componentes.",
+                "features": [
+                    "Peças hidráulicas",
+                    "Peças mecânicas",
+                    "Ferramentas de manutenção",
+                    "Apoio técnico"
+                ]
             }
         ]
     },

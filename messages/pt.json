@@ -1,15 +1,298 @@
 {
   "localeName": "Português",
-  "meta": {"title":"GPMB, Lda — Procurement e fornecimento industrial em Moçambique","description":"Soluções fiáveis de procurement e fornecimento de material industrial, comercial e doméstico em Moçambique."},
-  "nav": {"home":"Início","about":"Sobre","services":"Serviços","sectors":"Sectores","partners":"Parceiros","contact":"Contacto","quote":"Pedir cotação","menuOpen":"Abrir menu","menuClose":"Fechar menu","skip":"Saltar para o conteúdo"},
-  "hero": {"eyebrow":"Procurement industrial em Moçambique","title":"Soluções de fornecimento industrial, simples e fiáveis.","subtitle":"Fornecemos peças de manutenção e materiais para uso comercial, industrial e doméstico, com uma cadeia de suporte orientada para cada necessidade.","services":"Ver serviços","trust":"Relações sólidas com fornecedores e parceiros estratégicos","visualAlt":"Asa multicolor da identidade GPMB"},
-  "about": {"eyebrow":"Sobre nós","title":"O parceiro certo para necessidades exigentes.","body":"A GPMB, Lda é uma empresa moçambicana especializada no fornecimento de peças de manutenção e materiais para uso comercial, industrial e doméstico. Trabalhamos com soluções acessíveis, serviço profissional e relações sólidas com fornecedores estratégicos.","missionTitle":"Missão","mission":"Ser uma empresa de excelência nos sectores em que actua, comprometida com a inovação, qualidade e eficiência no mercado nacional.","visionTitle":"Visão","vision":"Ser reconhecida pela prestação sólida e eficaz de serviços, oferecendo soluções relevantes aos parceiros e clientes, de Moçambique para África.","valuesTitle":"Os nossos valores","values":["Confiança","Respeito","Crença","Humildade","Integridade"],"commitmentTitle":"Compromisso responsável","commitment":"Procuramos superar as expectativas dos clientes com qualidade e segurança, prevenindo riscos para as pessoas, a saúde e os bens, e preservando o meio ambiente.","download":"Descarregar Company Profile","downloadAria":"Descarregar o perfil institucional da GPMB em PDF"},
-  "services": {"eyebrow":"Serviços e produtos","title":"Fornecimento para operações que não podem parar.","intro":"Da rotina do escritório a aplicações industriais especializadas, encontramos e entregamos o material adequado.","mainLabel":"Soluções principais","specialLabel":"Fornecimento especializado","showMore":"Ver fornecimento especializado","showLess":"Ver menos","items":[{"title":"Material de escritório","description":"Consumíveis e equipamentos para espaços de trabalho funcionais."},{"title":"Material eléctrico","description":"Componentes para infra-estruturas industriais, comerciais e domésticas."},{"title":"Equipamento de protecção individual","description":"Soluções de segurança e protecção para diferentes sectores."},{"title":"Material gráfico","description":"Materiais de comunicação visual e produção gráfica."},{"title":"Equipamento de soldadura","description":"Equipamentos para processos de soldadura industriais."},{"title":"Equipamento de elevação","description":"Soluções de alto desempenho orientadas à segurança."},{"title":"Válvulas e bombas","description":"Equipamentos inspeccionados para aplicações industriais."},{"title":"Aço inoxidável e alumínio","description":"Metais e perfis resistentes à corrosão."},{"title":"Folha de HDPE","description":"Material leve, durável e resistente a químicos."},{"title":"Correias transportadoras","description":"Componentes e apoio para sistemas de transporte."},{"title":"Informática industrial","description":"Computadores e equipamentos para ambientes industriais."},{"title":"Material hidráulico e mecânico","description":"Peças e ferramentas para manutenção e operação."}]},
-  "sectors": {"eyebrow":"Sectores que servimos","title":"Conhecimento transversal. Resposta focada.","intro":"A experiência em procurement global permite-nos consolidar materiais, logística e suporte para operações complexas.","items":["Mineração","Oil & Gás","Portos e logística","Energia","Indústria em geral"]},
-  "process": {"eyebrow":"Como trabalhamos","title":"Um processo claro, do pedido ao pós-venda.","items":[{"title":"Pedido","description":"Partilhe a necessidade e os requisitos técnicos."},{"title":"Cotação","description":"Identificamos opções e apresentamos uma proposta clara."},{"title":"Entrega","description":"Coordenamos o fornecimento e a logística."},{"title":"Suporte pós-venda","description":"Acompanhamos a solução depois da entrega."}]},
-  "partners": {"eyebrow":"Parceiros e clientes","title":"Confiança construída em diferentes sectores.","intro":"Empresas com as quais trabalhamos no fornecimento de materiais e equipamentos.","region":"Carrossel de parceiros e clientes","previous":"Parceiro anterior","next":"Parceiro seguinte","pause":"Pausar carrossel","play":"Retomar carrossel"},
-  "contact": {"eyebrow":"Contacto","title":"Conte-nos o que a sua operação precisa.","intro":"Envie o seu pedido. A nossa equipa irá analisar os requisitos e entrar em contacto.","formTitle":"Pedir informação ou cotação","name":"Nome","company":"Empresa","optional":"opcional","email":"Email","phone":"Telefone","subject":"Assunto","subjectPlaceholder":"Seleccione uma opção","subjects":{"quote":"Pedido de cotação","information":"Informações","partnership":"Parcerias","other":"Outro"},"message":"Mensagem","consent":"Autorizo o tratamento dos meus dados para resposta a este pedido.","send":"Enviar pedido","sending":"A enviar…","success":"Pedido recebido. Entraremos em contacto brevemente.","error":"Não foi possível enviar. Tente novamente ou contacte-nos por email.","addressLabel":"Morada","phoneLabel":"Telefone","emailsLabel":"Emails","mapTitle":"Localização da GPMB em Maputo","privacy":"Os seus dados serão usados apenas para responder ao pedido.","validation":{"name":"Indique um nome válido.","email":"Indique um email válido.","subject":"Seleccione um assunto.","message":"Escreva uma mensagem com pelo menos 10 caracteres.","consent":"É necessário aceitar o tratamento dos dados."}},
-  "floating": {"whatsapp":"Fale connosco","whatsappMessage":"Olá GPMB, gostaria de solicitar informações sobre os vossos serviços.","top":"Voltar ao topo"},
-  "footer": {"tagline":"Procurement e fornecimento industrial com resposta profissional.","quickLinks":"Links rápidos","contact":"Contactos","rights":"Todos os direitos reservados."},
-  "notFound": {"title":"Página não encontrada","body":"A página que procura não existe ou foi movida.","home":"Voltar ao início"}
+  "meta": {
+    "title": "GPMB, Lda — Procurement e fornecimento industrial",
+    "description": "Soluções fiáveis de procurement e fornecimento de material industrial, comercial e doméstico em Moçambique."
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "sectors": "Sectores",
+    "partners": "Parceiros",
+    "contact": "Contacto",
+    "quote": "Pedir cotação",
+    "menuOpen": "Abrir menu",
+    "menuClose": "Fechar menu",
+    "skip": "Saltar para o conteúdo"
+  },
+  "hero": {
+    "eyebrow": "Procurement industrial em Moçambique",
+    "title": "Soluções de fornecimento industrial, simples e fiáveis.",
+    "subtitle": "Fornecemos peças de manutenção e materiais para uso comercial, industrial e doméstico, com uma cadeia de suporte orientada para cada necessidade.",
+    "services": "Ver serviços",
+    "trust": "Relações sólidas com fornecedores e parceiros estratégicos",
+    "visualAlt": "Asa multicolor da identidade GPMB"
+  },
+  "about": {
+    "eyebrow": "Sobre nós",
+    "title": "O parceiro certo para necessidades exigentes.",
+    "body": "A GPMB, Lda é uma empresa moçambicana especializada no fornecimento de peças de manutenção e materiais para uso comercial, industrial e doméstico. Trabalhamos com soluções acessíveis, serviço profissional e relações sólidas com fornecedores estratégicos.",
+    "missionTitle": "Missão",
+    "mission": "Ser uma empresa de excelência nos sectores em que actua, comprometida com a inovação, qualidade e eficiência no mercado nacional.",
+    "visionTitle": "Visão",
+    "vision": "Ser reconhecida pela prestação sólida e eficaz de serviços, oferecendo soluções relevantes aos parceiros e clientes, de Moçambique para África.",
+    "valuesTitle": "Os nossos valores",
+    "values": [
+      "Confiança",
+      "Respeito",
+      "Crença",
+      "Humildade",
+      "Integridade"
+    ],
+    "commitmentTitle": "Compromisso responsável",
+    "commitment": "Procuramos superar as expectativas dos clientes com qualidade e segurança, prevenindo riscos para as pessoas, a saúde e os bens.",
+    "downloadCompanyProfile": "Descarregar Company Profile",
+    "downloadAria": "Descarregar o perfil institucional da GPMB em PDF",
+    "downloadResellerLetter": "Descarregar Letter de Distribuidor",
+    "downloadRAILOLetter": "Descarregar Letter de Cooperação",
+    "downloadValesProducts": "Descarregar Letter de Cooperação",
+    "download": "Descarregar Company Profile",
+    "downloadAria": "Descarregar o perfil institucional da GPMB em PDF"
+  },
+  "services": {
+    "eyebrow": "Serviços e produtos",
+    "title": "Fornecimento para operações que não podem parar.",
+    "intro": "Da rotina do escritório a aplicações industriais especializadas, encontramos e entregamos o material adequado.",
+    "mainLabel": "Soluções principais",
+    "specialLabel": "Fornecimento especializado",
+    "showMore": "Ver fornecimento especializado",
+    "showLess": "Ver menos",
+    "modal": {
+      "close": "Fechar",
+      "features": "O que fornecemos",
+      "quote": "Pedir cotação"
+    },
+    "items": [
+      {
+        "title": "Material de escritório",
+        "description": "Consumíveis e equipamentos para espaços de trabalho funcionais.",
+        "long": "Fornecemos consumíveis e equipamentos para espaços de trabalho funcionais, desde papelaria básica a mobiliário de escritório, com entregas regulares e stocks geridos.",
+        "features": [
+          "Papelaria e consumíveis",
+          "Mobiliário de escritório",
+          "Equipamento de impressão",
+          "Stocks geridos e reposição automática"
+        ]
+      },
+      {
+        "title": "Material eléctrico",
+        "description": "Componentes para infra-estruturas industriais, comerciais e domésticas.",
+        "long": "Componentes eléctricos para infra-estruturas industriais, comerciais e domésticas. Trabalhamos com marcas certificadas (ABB, Siemens, Schneider) e fornecemos apoio técnico na selecção.",
+        "features": [
+          "Disjuntores e quadros eléctricos",
+          "Cabos e acessórios",
+          "Transformadores e fontes",
+          "Sensores e equipamento pneumático"
+        ]
+      },
+      {
+        "title": "Equipamento de protecção individual",
+        "description": "Soluções de segurança e protecção para diferentes sectores.",
+        "long": "Soluções de segurança e protecção para diferentes sectores, com equipamento certificado e conformidade com normas internacionais.",
+        "features": [
+          "Capacetes, óculos e luvas",
+          "Vestuário de protecção",
+          "Máscaras e respiradores",
+          "Calçado de segurança"
+        ]
+      },
+      {
+        "title": "Material gráfico",
+        "description": "Materiais de comunicação visual e produção gráfica.",
+        "long": "Materiais de comunicação visual e produção gráfica para empresas e indústria, com suporte em pré-impressão e acabamentos.",
+        "features": [
+          "Papel e substratos",
+          "Tintas e consumíveis",
+          "Lonas e vinis",
+          "Materiais de acabamento"
+        ]
+      },
+      {
+        "title": "Equipamento de soldadura",
+        "description": "Equipamentos para processos de soldadura industriais.",
+        "long": "Equipamentos para processos de soldadura industriais, com formação e assistência técnica incluídas.",
+        "features": [
+          "Soldadores SMAW, TIG, MIG",
+          "Multi-processo e avançados",
+          "Consumíveis de soldadura",
+          "Assistência técnica"
+        ]
+      },
+      {
+        "title": "Equipamento de elevação",
+        "description": "Soluções de alto desempenho orientadas à segurança.",
+        "long": "Soluções de alto desempenho orientadas à segurança, para operações de elevação em indústria, portos e offshore.",
+        "features": [
+          "Cabos e lingas",
+          "Macacos e cilindros",
+          "Sistemas de elevação",
+          "Inspecção e certificação"
+        ]
+      },
+      {
+        "title": "Válvulas e bombas",
+        "description": "Equipamentos inspeccionados para aplicações industriais.",
+        "long": "Equipamentos inspeccionados para aplicações industriais, com testes antes da entrega para minimizar tempos de paragem.",
+        "features": [
+          "Bombas centrífugas e de deslocamento",
+          "Válvulas de controlo",
+          "Estações de bombagem",
+          "Separadores óleo/água"
+        ]
+      },
+      {
+        "title": "Aço inoxidável e alumínio",
+        "description": "Metais e perfis resistentes à corrosão.",
+        "long": "Metais e perfis resistentes à corrosão, certificados ISO e SABS, para aplicações exigentes.",
+        "features": [
+          "Aço inoxidável",
+          "Duplex stainless",
+          "Alumínio e perfis",
+          "Chapas e tubos"
+        ]
+      },
+      {
+        "title": "Folha de HDPE",
+        "description": "Material leve, durável e resistente a químicos.",
+        "long": "Material leve, durável e resistente a químicos, ideal para guias de desgaste, tanques e aplicações industriais.",
+        "features": [
+          "Chapas de HDPE",
+          "Guias de desgaste",
+          "Tanques e ductos",
+          "Corte e moldagem"
+        ]
+      },
+      {
+        "title": "Correias transportadoras",
+        "description": "Componentes e apoio para sistemas de transporte.",
+        "long": "Componentes e apoio para sistemas de transporte, com garantia de qualidade e suporte pós-venda.",
+        "features": [
+          "Correias transportadoras",
+          "Roletes e tambores",
+          "Borrachas técnicas",
+          "Serviços de manutenção"
+        ]
+      },
+      {
+        "title": "Informática industrial",
+        "description": "Computadores e equipamentos para ambientes industriais.",
+        "long": "Computadores e equipamentos robustos para ambientes industriais, com configurações personalizadas.",
+        "features": [
+          "Computadores industriais",
+          "Impressoras e plotadores",
+          "Teclados e periféricos",
+          "Switches e cabos de rede"
+        ]
+      },
+      {
+        "title": "Material hidráulico e mecânico",
+        "description": "Peças e ferramentas para manutenção e operação.",
+        "long": "Peças e ferramentas para manutenção e operação, com apoio técnico na identificação de componentes.",
+        "features": [
+          "Peças hidráulicas",
+          "Peças mecânicas",
+          "Ferramentas de manutenção",
+          "Apoio técnico"
+        ]
+      }
+    ]
+  },
+  "sectors": {
+    "eyebrow": "Sectores que servimos",
+    "title": "Conhecimento transversal. Resposta focada.",
+    "intro": "A experiência em procurement global permite-nos consolidar materiais, logística e suporte para operações complexas.",
+    "items": [
+      "Mineração",
+      "Oil & Gás",
+      "Portos e logística",
+      "Energia",
+      "Indústria em geral"
+    ]
+  },
+  "process": {
+    "eyebrow": "Como trabalhamos",
+    "title": "Um processo claro, do pedido ao pós-venda.",
+    "items": [
+      {
+        "title": "Pedido",
+        "description": "Partilhe a necessidade e os requisitos técnicos."
+      },
+      {
+        "title": "Cotação",
+        "description": "Identificamos opções e apresentamos uma proposta clara."
+      },
+      {
+        "title": "Entrega",
+        "description": "Coordenamos o fornecimento e a logística."
+      },
+      {
+        "title": "Suporte pós-venda",
+        "description": "Acompanhamos a solução depois da entrega."
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Parceiros e clientes",
+    "title": "Confiança construída em diferentes sectores.",
+    "intro": "Empresas com as quais trabalhamos no fornecimento de materiais e equipamentos.",
+    "region": "Carrossel de parceiros e clientes",
+    "previous": "Parceiro anterior",
+    "next": "Parceiro seguinte",
+    "pause": "Pausar carrossel",
+    "play": "Retomar carrossel"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Conte-nos o que a sua operação precisa.",
+    "intro": "Envie o seu pedido. A nossa equipa irá analisar os requisitos e entrar em contacto.",
+    "formTitle": "Pedir informação ou cotação",
+    "name": "Nome",
+    "company": "Empresa",
+    "optional": "opcional",
+    "email": "Email",
+    "phone": "Telefone",
+    "subject": "Assunto",
+    "subjectPlaceholder": "Seleccione uma opção",
+    "subjects": {
+      "quote": "Pedido de cotação",
+      "information": "Informações",
+      "partnership": "Parcerias",
+      "other": "Outro"
+    },
+    "message": "Mensagem",
+    "consent": "Autorizo o tratamento dos meus dados para resposta a este pedido.",
+    "send": "Enviar pedido",
+    "sending": "A enviar…",
+    "success": "Pedido recebido. Entraremos em contacto brevemente.",
+    "error": "Não foi possível enviar. Tente novamente ou contacte-nos por email.",
+    "addressLabel": "Morada",
+    "phoneLabel": "Telefone",
+    "emailsLabel": "Emails",
+    "mapTitle": "Localização da GPMB em Maputo",
+    "privacy": "Os seus dados serão usados apenas para responder ao pedido.",
+    "validation": {
+      "name": "Indique um nome válido.",
+      "email": "Indique um email válido.",
+      "subject": "Seleccione um assunto.",
+      "message": "Escreva uma mensagem com pelo menos 10 caracteres.",
+      "consent": "É necessário aceitar o tratamento dos dados."
+    }
+  },
+  "floating": {
+    "whatsapp": "Fale connosco",
+    "whatsappMessage": "Olá GPMB, gostaria de solicitar informações sobre os vossos serviços.",
+    "top": "Voltar ao topo"
+  },
+  "footer": {
+    "tagline": "Procurement e fornecimento industrial com resposta profissional.",
+    "quickLinks": "Links rápidos",
+    "contact": "Contactos",
+    "rights": "Todos os direitos reservados."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "body": "A página que procura não existe ou foi movida.",
+    "home": "Voltar ao início"
+  }
 }
