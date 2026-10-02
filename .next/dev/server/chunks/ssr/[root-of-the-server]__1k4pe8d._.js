@@ -493,8 +493,7 @@ module.exports = {
         "downloadAria": "Descarregar o perfil institucional da GPMB em PDF",
         "downloadResellerLetter": "Descarregar Letter de Distribuidor",
         "downloadRAILOLetter": "Descarregar Letter de Cooperação",
-        "downloadValesProducts": "Descarregar Letter de Cooperação",
-        "download": "Descarregar Company Profile"
+        "downloadValesProducts": "Descarregar Letter de Cooperação"
     },
     "services": {
         "eyebrow": "Serviços e produtos",
