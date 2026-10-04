@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Locale, Messages } from "@/lib/i18n";
-import { navIds, scrollTo, type NavId } from "@/lib/site-utils";
+import { navIds, type NavId } from "@/lib/site-utils";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Header({ m, locale }: { m: Messages; locale: Locale }) {
@@ -57,10 +57,21 @@ export function Header({ m, locale }: { m: Messages; locale: Locale }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
+  /* ============ Navegação ============ */
   const go = (id: NavId) => {
     setOpen(false);
-    /* Pequeno delay para o scroll acontecer depois de fechar o menu */
-    setTimeout(() => scrollTo(id), 50);
+
+    // Pequeno delay para o menu mobile fechar e libertar o scroll
+    setTimeout(() => {
+      if (id === "home") {
+        // Volta ao topo absoluto
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        document
+          .getElementById(id)
+          ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 80);
   };
 
   return (
@@ -91,10 +102,7 @@ export function Header({ m, locale }: { m: Messages; locale: Locale }) {
           </button>
 
           {/* ============ Nav desktop ============ */}
-          <nav
-            aria-label="Primary"
-            className="hidden items-center gap-6 lg:flex"
-          >
+          <nav aria-label="Primary" className="hidden items-center gap-6 lg:flex">
             {navIds.map((id) => (
               <button
                 key={id}

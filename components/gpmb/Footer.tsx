@@ -29,8 +29,9 @@ export function Footer({ m, locale }: { m: Messages; locale: Locale }) {
         <div>
           <p className="text-sm font-semibold">{m.footer.contact}</p>
           <div className="mt-4 space-y-2 text-sm text-muted-foreground">
+            <p>+258 87 06 002 56</p>
             <p>+258 84 28 741 44</p>
-            <p>info@gpmbmz.com</p>
+            <p>info@gpmlda.com</p>
             <LanguageSwitcher locale={locale} label={m.localeName} />
           </div>
         </div>
