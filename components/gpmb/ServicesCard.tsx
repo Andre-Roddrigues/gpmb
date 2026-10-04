@@ -38,7 +38,6 @@ const serviceImages: Record<number, string> = {
   11: "/images/hidraulico.jpg",
 };
 
-// Detalhes extra por serviço (opcional — podes mover para i18n)
 const serviceDetails: Record<number, { long: string; features: string[] }> = {
   0: {
     long: "Fornecemos consumíveis e equipamentos para espaços de trabalho funcionais, desde papelaria básica a mobiliário de escritório, com entregas regulares e stocks geridos.",
@@ -166,9 +165,10 @@ export function ServicesCard({ m, locale }: { m: Messages; locale: "pt" | "en" }
 
   const handleQuote = () => {
     setSelectedIndex(null);
-    // scroll para o contacto depois de fechar
     setTimeout(() => {
-      document.getElementById("contact")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document
+        .getElementById("contact")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 250);
   };
 
@@ -179,7 +179,7 @@ export function ServicesCard({ m, locale }: { m: Messages; locale: "pt" | "en" }
           <motion.div
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.2 }}
+            viewport={{ once: true, amount: 0.1 }}
             variants={staggerContainer}
           >
             <motion.div variants={fadeInLeft} className="max-w-3xl">
@@ -189,15 +189,16 @@ export function ServicesCard({ m, locale }: { m: Messages; locale: "pt" | "en" }
               />
             </motion.div>
 
-            <motion.div
-              variants={staggerContainer}
-              className="mt-14 grid items-stretch gap-6 md:grid-cols-2 lg:grid-cols-3"
-            >
+            {/* Grid de cards — cada card tem o seu próprio whileInView */}
+            <div className="mt-14 grid items-stretch gap-6 md:grid-cols-2 lg:grid-cols-3">
               {m.services.items.map((s, i) => {
                 const Icon = serviceIcons[i] ?? Car;
                 return (
                   <motion.div
                     key={s.title}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.15, margin: "0px 0px -50px 0px" }}
                     variants={fadeInUp}
                     whileHover={{ y: -5 }}
                     transition={{ duration: 0.2 }}
@@ -238,7 +239,7 @@ export function ServicesCard({ m, locale }: { m: Messages; locale: "pt" | "en" }
                   </motion.div>
                 );
               })}
-            </motion.div>
+            </div>
           </motion.div>
         </div>
       </section>
