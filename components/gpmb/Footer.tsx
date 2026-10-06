@@ -32,6 +32,7 @@ export function Footer({ m, locale }: { m: Messages; locale: Locale }) {
             <p>+258 87 06 002 56</p>
             <p>+258 84 28 741 44</p>
             <p>info@gpmlda.com</p>
+            <p>globalprocurementmz@gmail.com</p>
             <LanguageSwitcher locale={locale} label={m.localeName} />
           </div>
         </div>

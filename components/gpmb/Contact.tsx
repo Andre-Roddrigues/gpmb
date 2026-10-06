@@ -154,7 +154,7 @@ export function Contact({ m, locale }: { m: Messages; locale: Locale }) {
               <div className="rounded-2xl bg-ink p-7 text-ink-foreground md:p-9">
                 {[
                   [MapPin, m.contact.addressLabel, "Av. Vlademir Lenine Nº 573, Bairro Coop, 1º Andar, Kampfumo, Maputo-Cidade"],
-                  [Phone, m.contact.phoneLabel, "+258 84 28 741 44 | +258 84 28 741 44"],
+                  [Phone, m.contact.phoneLabel, "+258 84 28 741 44 | +258 87 06 002 56"],
                   [Mail, m.contact.emailsLabel, "info@gpmbmz.com\nglobalprocurementmz@gmail.com"],
                 ].map(([I, l, v]) => {
                   const C = I as Icon;
