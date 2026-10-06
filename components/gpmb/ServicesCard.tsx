@@ -25,15 +25,15 @@ const fadeInUp = {
 
 const serviceImages: Record<number, string> = {
   0: "/images/escritorio.jpg",
-  1: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1024&q=80",
-  2: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1024&q=80",
+  1: "/images/electrico.jpg",
+  2: "/images/equipamentodeprotecao.jpg",
   3: "/images/servicesgrafica.jpg",
-  4: "/images/servicessoldadura.jpg",
+  4: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1024&q=80",
   5: "/images/serviceselevacao.jpg",
   6: "/images/valvulas.jpg",
   7: "/images/aluminio.jpg",
   8: "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1024&q=80",
-  9: "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=1024&q=80",
+  9: "/images/correia.jpg",
   10: "/images/132168.jpg",
   11: "/images/hidraulico.jpg",
 };
