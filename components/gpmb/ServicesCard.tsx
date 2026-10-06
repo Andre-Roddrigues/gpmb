@@ -28,7 +28,7 @@ const serviceImages: Record<number, string> = {
   1: "/images/electrico.jpg",
   2: "/images/equipamentodeprotecao.jpg",
   3: "/images/servicesgrafica.jpg",
-  4: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1024&q=80",
+  4: "/images/soldadura.jpg",
   5: "/images/serviceselevacao.jpg",
   6: "/images/valvulas.jpg",
   7: "/images/aluminio.jpg",
